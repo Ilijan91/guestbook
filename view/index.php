@@ -81,7 +81,7 @@ function test_input($data) {
       <div class="form-group">
        <input type="submit" id="form-submit" name="submit" value="Submit" class="btn btn-success" />
       </div>
-      <div id="errors"></div>  
+       
     
      </form> <!-- end of form -->
      <div class="form-group">

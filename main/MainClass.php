@@ -40,7 +40,18 @@ abstract class MainClass{
        
   }
 
- 
+  static function deleteUser($id){
+
+      $filter = $id == 0 ? "" : " where id ={$id}";
+     
+      $pdo=Database::getDatabase();
+      
+
+      $nazivTabele=static::$tableName;
+      $st=$pdo->query("DELETE FROM  {$nazivTabele}{$filter} ");
+     
+     
+}
          
 
     

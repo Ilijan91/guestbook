@@ -29,6 +29,7 @@
                     <th scope="col">Title</th>
                     <th scope="col">Email</th>
                     <th scope="col">Comment</th>
+                    <th scope="col">Delete entry</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -39,6 +40,10 @@
                         <td>{$user->title}</td>
                         <td>{$user->email}</td>
                         <td>{$user->comment}</td>
+                        
+       
+      
+                        <td><a role='button' submit='delete' class='btn btn-primary' href='/guestbook/site/delete&id={$user->id}'>Delete</a><td>
                     </tr>";
                    ?>
                    

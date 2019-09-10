@@ -45,11 +45,17 @@ class SiteController extends Controller {
     }
 
     public function show(){
-        
+
         $this->loadView("show",["users"=>Users::show()]); 
     }
 
+ public function delete(){
 
+        $id=isset($_GET['id']) ? $_GET['id'] : 0;
+        $delete=Users::deleteUser($id);
+        
+        $this->loadView("delete"); 
+    }
 
 
 
