@@ -40,9 +40,6 @@
                         <td>{$user->title}</td>
                         <td>{$user->email}</td>
                         <td>{$user->comment}</td>
-                        
-       
-      
                         <td><a role='button' submit='delete' class='btn btn-primary' href='/guestbook/site/delete&id={$user->id}'>Delete</a><td>
                     </tr>";
                    ?>

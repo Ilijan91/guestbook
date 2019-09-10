@@ -30,6 +30,9 @@ function test_input($data) {
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- jQuery -->
+        <script type="text/javascript" src="../js/jquery.js"></script>
     </head>
  
     <body>  
@@ -81,7 +84,7 @@ function test_input($data) {
       <div class="form-group">
        <input type="submit" id="form-submit" name="submit" value="Submit" class="btn btn-success" />
       </div>
-       
+      <div id="errors"></div>  
     
      </form> <!-- end of form -->
      <div class="form-group">
@@ -92,6 +95,6 @@ function test_input($data) {
 
   </div> <!-- end of div .container -->
 
-  
+  <script type="text/javascript" src="../js/index.js"></script>
     </body>  
 </html>  
